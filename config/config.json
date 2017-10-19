@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "s1jhee8yh06g36jg",
+    "password": "ko8ety623arizq8i",
+    "database": "demo_schema",
+    "host": "thh2lzgakldp794r.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "dialect": "mysql",
+    "use_env_variable": "JAWSDB_URL"
+
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL"
+  }
+}

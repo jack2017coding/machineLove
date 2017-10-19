@@ -1,0 +1,152 @@
+#userWelcome{
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+}
+
+button.submit {
+  float: right;
+}
+
+form#cms {
+  margin-top: 50px;
+}
+
+#cms textarea {
+  resize: none;
+}
+
+.panel-heading button.delete,
+button.edit, button.public {
+  float: right;
+  margin: 5px;
+}
+
+.author-container {
+  margin-top: 50px;
+}
+
+.author-list {
+  margin-top: 25px;
+}
+
+.diary-container {
+  margin-top: 30px;
+}
+
+.diary {
+  margin-top: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+#author-name {
+  width: 100%;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.top-30 {
+  margin-top: 30px;
+}
+
+.panel.col-md-3.panel-default{
+  margin-right: 20px;
+}
+
+.panel.col-md-3.panel-default:nth-of-type(even){
+  background-color: snow;
+}
+
+.panel.col-md-3.panel-default:nth-of-type(odd){
+  background-color: cornsilk;
+}
+
+.btn{
+  padding: 3px 6px;
+  margin-left: 10px;
+}
+
+.panel-default>.panel-heading {
+  background-color: transparent;
+}
+
+h3 small{
+  font-size: 55%;
+  float: right;
+  padding-top: 3px; 
+}
+
+h5{
+  font-style: italic;
+}
+
+.welcomeInfo {
+  text-align: center;
+  font-style: italic;
+}
+
+.socialMediaIcon {
+  max-width: 16px;
+}
+
+.signUpTitle {
+  font-weight: bold;
+}
+
+.footer {
+  padding-bottom: 15px;
+  border-top: 1px solid #dbdbdb;
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+body {
+  background: url("../images/photo2.jpg")repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+.navbar-brand {
+  font-size: 250%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  padding-left: 200px;
+  padding-top: 20px;
+  font-family: serif;
+}
+
+.fixed-panel{
+  height: 100px;
+  overflow-y: scroll;
+}
+
+textarea.form-control {
+    height: 270px;
+}
+input#searchInput.form-control{
+  height: 50px;
+  border-radius: 30px;
+}
+
+a.btn.btn-default{
+  border-radius: 30px;
+  width: 100%;
+  height: 50px;
+  padding-top: 13px;
+  margin-left: 30px;
+}
